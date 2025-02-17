@@ -31,7 +31,7 @@ try{
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Update Todo </title>
+  <title> Book Admission </title>
   <link href="../statics/css/bootstrap.min.css" rel="stylesheet">
   <script src="../statics/js/bootstrap.js"></script>
 </head>
@@ -40,7 +40,7 @@ try{
     <div class="container d-flex justify-content-center mt-5">
       <div class="col-6">
         <div class="row">
-          <p class="display-5 fw-bold">Edit Todo</p>
+          <p class="display-5 fw-bold">Book Status Update</p>
         </div>
         <div class="row">
           <form class="form" action="../handlers/update_library_handler.php" method="POST">
@@ -62,7 +62,7 @@ try{
             </div>
 
             <div class="my-3">
-              <button type="submit" class="btn btn-outline-dark">Save Todo</button>
+              <button type="submit" class="btn btn-outline-dark" style="background-color: aqua;">Save Changes</button>
             </div>
           </form>
         </div>

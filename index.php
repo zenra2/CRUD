@@ -17,7 +17,7 @@
           <p class="display-5 fw-bold">Books admission </p>
         </div>
         <div class="row">
-          <a href="views/add_lib.php" class="btn btn-outline-dark btn-sm">Add books</a>
+          <a href="views/add_lib.php" class="btn btn-outline-dark btn-sm" style="background-color: greenyellow;">Add books</a>
         </div>
         <?php
           $res = $conn->query("SELECT * FROM lib");
